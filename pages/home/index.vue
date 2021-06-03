@@ -1,5 +1,20 @@
-<template>
-    <div>
-        <h1>Đây là trang chủ</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+    <script src='main.js'></script>
+    <title>Trang chủ</title>
+</head>
+<body>
+    <div class="background">
+        <h1 class="header">Web Blog</h1>
+        <img class="img" src="../New folder/img/icon.png">
+        <div class="aln">
+            <p>Tin mới cập nhật:</p>
+        </div>
     </div>
-</template>
+</body>
