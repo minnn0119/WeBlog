@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+}
+
+.header {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(219, 219, 219);
+}
+
+.img {
+    margin-left: 43%;
+    display: inline-block;
+    animation: turn 2s linear forwards 1s;
+    transform: rotateX(180deg);
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 265px;
+}
+
+.aln {
+    border-bottom: 400px solid #41b883;
+}
+
+p {
+    color: rgb(219, 219, 219);
+    font-size: 40px;
+}
+
+@keyframes turn {
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
