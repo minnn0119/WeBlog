@@ -1,20 +1,66 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
-    <script src='main.js'></script>
-    <title>Trang chủ</title>
-</head>
-<body>
-    <div class="background">
-        <h1 class="header">Web Blog</h1>
-        <img class="img" src="../New folder/img/icon.png">
+<template>
+        <div class="background">
+        <h1 class="header">WeBlog</h1>
+        <img class="img" src="@/static/icon.png">
         <div class="aln">
-            <p>Tin mới cập nhật:</p>
+            <p>Thành viên:</p>
+            <form action="">
+                <ul>
+                    <li class="cr">
+                        <img class="img2" src="@/static/icon.png">
+                        <p>Đặng Diệp Minh</p>
+               
+                    </li>
+                    <li class="cr">
+                        <img class="img2" src="@/static/icon.png">
+                        <p>sửa tên</p>
+               
+                    </li>
+                    <li class="cr">
+                        <img class="img2" src="@/static/icon.png">
+                        <p>sửa tên</p>
+               
+                    </li>
+                </ul>
+            </form>
         </div>
     </div>
-</body>
+</template>
+
+<style scoped>
+*{
+    background-color: black;
+}
+
+.header {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(219, 219, 219);
+}
+
+.img {
+    margin-left: 43%;
+    display: inline-block;
+    animation: turn 2s linear forwards 1s;
+    transform: rotateX(180deg);
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 265px;
+}
+.img2{
+    width: 100px;
+}
+p {
+    color: rgb(219, 219, 219);
+    font-size: 40px;
+}
+.cr{
+    display: flex;
+}
+@keyframes turn {
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+</style>
