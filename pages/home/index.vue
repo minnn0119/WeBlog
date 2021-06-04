@@ -7,18 +7,18 @@
             <form action="">
                 <ul>
                     <li class="cr">
-                        <img class="img2" src="@/static/icon.png">
+                        <img class="img2" src="@/static/minh.jpg">
                         <p>Đặng Diệp Minh</p>
                
                     </li>
                     <li class="cr">
-                        <img class="img2" src="@/static/icon.png">
-                        <p>sửa tên</p>
+                        <img class="img2" src="@/static/nha.jpg">
+                        <p>Nguyễn Thanh Nhã</p>
                
                     </li>
                     <li class="cr">
-                        <img class="img2" src="@/static/icon.png">
-                        <p>sửa tên</p>
+                        <img class="img2" src="@/static/truong.jpg">
+                        <p>Trần Quang Trường</p>
                
                     </li>
                 </ul>
@@ -49,7 +49,8 @@
     width: 265px;
 }
 .img2{
-    width: 100px;
+    width: 80px;
+    height: 80px;
 }
 p {
     color: rgb(219, 219, 219);
